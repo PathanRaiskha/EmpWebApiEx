@@ -14,6 +14,7 @@ namespace EmpWebApiEx.Controllers
         private readonly IempolyServices _IempolyServices;
         public employController(IempolyServices ICompanyDetailServices)
         {
+            //int a;
             _IempolyServices = ICompanyDetailServices;
         }
 
