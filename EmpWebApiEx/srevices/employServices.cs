@@ -10,6 +10,8 @@ namespace EmpWebApiEx.srevices
 
         public employServices(AppDbContext AppDbContext)
         {
+            //intb;
+
             _AppDbContext = AppDbContext;
         }
 
